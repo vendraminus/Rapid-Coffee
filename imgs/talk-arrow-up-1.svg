@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.0 r9654"
+   sodipodi:docname="talk-arrow-up-1.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8"
+     inkscape:cx="379.57982"
+     inkscape:cy="430.05115"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1280"
+     inkscape:window-height="665"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0">
+    <sodipodi:guide
+       orientation="0,1"
+       position="412.14224,371.73614"
+       id="guide2989" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="250.51783,789.93929"
+       id="guide2991" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="499.01536,779.83776"
+       id="guide2993" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="285.71429,470.71429"
+       id="guide3787" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:#fcf0ae;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0"
+       d="M 250.51783,680.62604 375.77675,581.6311 499.01536,680.62604 z"
+       id="path2995"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/Users/horta/Sites/openheart/imgs/talk-arrow-up-1.png"
+       inkscape:export-xdpi="12.532637"
+       inkscape:export-ydpi="12.532637" />
+    <path
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:6;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 250.51783,680.52618 375,581.54803 499.01536,680.52618"
+       id="path3789"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/Users/horta/Sites/openheart/imgs/talk-arrow-up-1.png"
+       inkscape:export-xdpi="12.532637"
+       inkscape:export-ydpi="12.532637" />
+  </g>
+</svg>
