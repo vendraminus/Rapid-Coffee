@@ -1,0 +1,27 @@
+RapidCoffee: A free, opensource dynamic internet forum
+RapidCoffee was first idealized by Danilo Horta and Lucas Vendramin to be an extremely dynamic internet forum, focused in fast conversations.
+
+
+Development
+RapidCoffee is developed in PHP-5 and designed to work with PostgreSQL-8.x.
+
+
+License
+	RapidCoffee is a free, opensource dynamic internet forum.
+	(C) Copyright 2011 Danilo Horta & Lucas Vendramin.
+
+	This program is free software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
+
+	This program is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+	Contacts: danilo.horta@gmail.com, lucasvendramin85@gmail.com
+

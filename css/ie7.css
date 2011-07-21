@@ -1,0 +1,113 @@
+#account-tool-avatar
+{
+	zoom: 1 !important;
+	*display:inline !important;
+	margin-top:-10px;
+}
+#account-tool-avatar > .avatar-small
+{
+	margin-top:-10px;
+}
+
+ul.maintab-items
+{
+	background-color: #4c6696;
+}
+
+.channel-preview .img-sec, 
+.topic-preview .img-sec,
+.channelslistinmain .channel-preview,
+.channel-preview .sec-left,
+.channels-list .channel-preview .sec-left,
+.channel-preview .description,
+.channel-preview .subscription,
+.channel-tabs .channel-tab,
+ul.maintab-items .tab-title,
+.big-btn div.text,
+.big-btn,
+.post-avatar-sec,
+.post-content .msg,
+div.topic-msg,
+#toolbar-middle div.tool-item,
+.inline-block, .load-horiz-icon, .load-icon-small,
+.input-section .body .left,
+.input-section .body .middle,
+.input-section .body .middle .notice,
+.big-btn, .big-btn .text, .big-btn .btn-right
+{
+	zoom: 1 !important;
+	*display:inline !important;
+}
+.input-section .body .middle > input.signature,
+.input-section .body .middle > input.password,
+.input-section .body .middle > input.text
+{
+	margin-left:-20px;
+}
+.input-section .body .middle {position:static;}
+input.button-good, input.button-bad, input.button-green
+{
+	min-width:0 !important;
+	zoom: 1 !important;
+	*display:inline;
+	filter:chroma(color=#000000);
+	border:none !important;
+}
+.input-section .body .middle .share-channel-admin-panel
+{
+	width:480px;
+}
+
+.channel-admin ol
+{
+	padding-left:0;
+}
+.tool-menu
+{
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=2, Direction=135, Color='#1D4468');
+}
+input.button-good
+{
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=2, Direction=135, Color='#2C4661');
+}
+input.button-bad
+{
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=2, Direction=135, Color='#666666');
+}
+input.button-green
+{
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=2, Direction=135, Color='#386641');
+}
+#account-tool-menu,
+#signin-menu
+{
+	right:-2px;
+}
+.input-section .body .logo-edition .buttons input.file
+{
+	margin-left:-150px !important;
+}
+ol.add-topic li.topic-msg-sec
+{
+	margin-top:-14px !important;
+}
+
+div.tinymce-holder
+{
+	display:block !important;
+}
+div.tinymce-holder
+{
+}
+span.tinymce-holder
+{
+	top:22px !important;
+}
+div.load-icon-small
+{
+	margin-bottom:8px;
+}
+.channelslistinmain li.channel-preview
+{
+	margin-bottom:3px;
+}

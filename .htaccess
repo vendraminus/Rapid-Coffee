@@ -1,0 +1,49 @@
+#DirectoryIndex home.php
+# Use PHP5 as default
+#AddHandler application/x-httpd-php5 .php
+RewriteEngine On
+#RewriteCond %{HTTP_HOST}   !^rapidcoffee\.com [NC]
+#RewriteRule ^/?(.*)        http://rapidcoffee.com/$1 [R=301,NE]
+
+RewriteBase /
+
+RewriteCond %{HTTP_HOST} ^www.rapidcoffee.com$ [NC]
+RewriteRule ^(.*)$ http://rapidcoffee.com/$1 [R=301,L]
+
+RewriteRule ^([^/]+)/engine\.php$         engine.php?where=$1 [L,QSA]
+RewriteRule ^([^/]+)/\d+/engine\.php$     $1/engine.php?where=$1 [L,QSA]
+RewriteRule ^([^/]+)/channel/engine\.php$     $1/engine.php?where=$1 [L,QSA]
+RewriteRule ^([^/]+)/index\.php$          index.php?where=$1 [L,QSA]
+RewriteRule ^([^/]+)/imgs/avatar/(.*)$    imgs/avatar/$2 [L]
+RewriteRule ^([^/]+)/imgs/temp/(.*)$      imgs/temp/$2 [L]
+RewriteRule ^([^/]+)/js/(.*)$             js/$2 [L]
+RewriteRule ^([^/]+)/\d+/js/(.*)$         $1/js/$2 [L]
+RewriteRule ^([^/]+)/\d+/css/(.*)$        $1/css/$2 [L]
+RewriteRule ^([^/]+)/\d+/imgs/(.*)$       $1/imgs/$2 [L]
+RewriteRule ^([^/]+)/channel/js/(.*)$     - [L]
+RewriteRule ^([^/]+)/channel/css/(.*)$    - [L]
+RewriteRule ^([^/]+)/channel/imgs/(.*)$   - [L]
+
+RewriteRule ^channel/(.+)$			engine.php?SYSTEM_redirect=1&what=autoopenchannel&urlname=$1 [R,QSA]
+RewriteRule ^topic/(.+)/.*$			engine.php?SYSTEM_redirect=1&what=autoopentopic&topicid=$1 [R,QSA]
+RewriteRule ^topic/(.+)$			engine.php?SYSTEM_redirect=1&what=autoopentopic&topicid=$1 [R,QSA]
+
+#RewriteRule ^([^/]+)/archive/([\d]+)/.*$                          engine.php?where=$1&SYSTEM_redirect=1&what=topic&id_topic=$2 [L]
+#RewriteRule ^([^/]+)/([\d]+)/.*$                                  $1/index.php?topic_id=$2 [L]
+#RewriteRule ^([^/]+)/archive/(\d\d\d\d)$                          engine.php?where=$1&SYSTEM_redirect=1&what=datetopics&year_datetopics=$2 [L]
+#RewriteRule ^([^/]+)/archive/(\d\d\d\d)/(\d\d)$                   engine.php?where=$1&SYSTEM_redirect=1&what=datetopics&year_datetopics=$2&month_datetopics=$3 [L]
+#RewriteRule ^([^/]+)/archive/(\d\d\d\d)/(\d\d)/(\d\d)$            engine.php?where=$1&SYSTEM_redirect=1&what=datetopics&year_datetopics=$2&month_datetopics=$3&day_datetopics=$4 [L]
+#RewriteRule ^([^/]+)/archive/(\d\d\d\d)/(\d\d)/(\d\d)/([\w-\d])+$ viewtopic.php?where=$1&c=$2$3$4$5 [L]
+#RewriteRule ^([^/]+)/$                                    index.php?where=$1 [L]
+#RewriteRule ^([^/]+)/channel/(.*)$                        $1/index.php?channel_urlname=$2 [N]
+#RewriteRule ^([^/]+)/index\.html$                         engine.php?where=$1&SYSTEM_redirect=1&what=datetopics [L]
+#RewriteRule ^home\.php$                                   / [R=301,L]
+
+
+RewriteRule ^js/([^/].*)\.biz$ /js/js.php [L]
+RewriteRule ^css/([^/].*)\.biz$ /css/rc.php [L]
+
+
+<IfModule mod_deflate.c>
+AddOutputFilterByType DEFLATE text/text text/html text/plain text/xml text/css application/x-javascript application/javascript
+</IfModule>

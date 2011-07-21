@@ -1,0 +1,26 @@
+input.wtext, input.wpassword
+{
+	border:1px solid gray !important;
+}
+.tool-menu
+{
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=2, Direction=135, Color='#1D4468')";
+}
+input.button-good
+{
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=2, Direction=135, Color='#2C4661')";
+}
+input.button-bad
+{
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=2, Direction=135, Color='#666666')";
+}
+input.button-green
+{
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=2, Direction=135, Color='#386641')";
+}
+input.button-good:active,
+input.button-bad:active,
+input.button-green:active
+{
+	-ms-filter: "";
+}

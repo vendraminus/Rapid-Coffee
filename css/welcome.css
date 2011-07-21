@@ -1,0 +1,353 @@
+#welcome
+{
+	position:static !important;
+}
+div.welcome-wrap
+{
+	background: #8ab9cd url(../imgs/water-grunge-compressed.jpg) top left no-repeat;
+	top:20px;
+	left:50%;
+	margin-left:-450px;
+	position:absolute;
+	width:900px;
+	height:500px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	z-index:9999;
+	border:1px solid white;
+}
+.wbox
+{
+	height:35px;
+}
+input.wtext, input.wpassword
+{
+	font-family:"HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,arial,sans-serif;
+	border: none;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	box-shadow:inset 0px 1px 2px #222;
+	-moz-box-shadow:inset 0px 1px 2px #222;
+	-webkit-box-shadow:inset 0px 1px 2px #222;
+	font-size:18px;
+	padding:8px;
+	-webkit-transition:0.1s linear;
+	width:250px;
+}
+.wsignin-sec input.wtext,
+.wsignin-sec input.wpassword
+{
+	width:130px;
+	font-size:14px;
+	padding:4px;
+}
+input.wtext:active, input.wtext:focus,
+input.wpassword:active, input.wpassword:focus
+{
+	outline:none;
+	box-shadow:0 0 15px #e5e5e5,inset 0px 1px 2px #222;
+	-moz-box-shadow:0 0 15px #e5e5e5,inset 0px 1px 2px #222;
+	-webkit-box-shadow:0 0 15px #e5e5e5,inset 0px 1px 2px #222;
+}
+label
+{
+	font-family:Arial,sans-serif;
+	font-weight:600;
+	font-size:24px;
+	color:#373D51;
+	text-shadow:0px 1px 1px white;
+	margin-right:7px;
+}
+table,table tr,table td
+{
+	border:none;
+}
+table
+{
+	margin-top:30px;
+}
+div.rapidcoffee
+{
+	font-family:"lucida grande",tahoma,verdana,arial,sans-serif;
+	font-size:19px;
+	right: 10px;
+	bottom:5px;
+	color:#2c2d51;
+	color:black;
+	text-shadow: white 0 0 10px;
+	letter-spacing:1px;
+}
+div.wexplanation
+{
+	text-align:justify;
+	font-family:"HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,arial,sans-serif;
+	font-size:18px;
+	color:#243B6B;
+	width:400px;
+	top:70px;
+	left:350px;
+}
+span.destaca
+{
+	font-style:italic;
+	font-weight:bold;
+}
+div.head-exp
+{
+	font-family:"HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,arial,sans-serif;
+	font-size:20px;
+	color:white;
+	text-shadow: 0 0 1px #aaa;
+	margin-top:30px;
+	text-align:left;
+}
+td.winputs-head
+{
+	color:white;
+	font-size:18px;
+	font-weight:bold;
+	font-family:"Arial Black",Arial,sans-serif;
+	text-shadow:0 1px 1px black;
+	text-align:right;
+}
+td.wbutton
+{
+	text-align:right;
+}
+input.wbutton
+{
+	font-family:"HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,arial,sans-serif;
+	background:#2C6DA0;
+	font-size:18px;
+	font-weight:100;
+	color:white !important;
+	padding:7px 12px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-width:0;
+	text-shadow: 0 0 2px #ccc;
+	margin:0;
+}
+.wsignin-sec input.wbutton
+{
+	font-size:14px;
+	padding-top:4px;
+	padding-bottom:4px;
+}
+input.wbutton:hover
+{
+	cursor:pointer;
+	background:#3685c1;
+}
+input.wbutton:active
+{
+	background:#2C6DA0;
+	box-shadow:inset 0px 1px 2px #222;
+	-moz-box-shadow:inset 0px 1px 2px #222;
+	-webkit-box-shadow:inset 0px 1px 2px #222;
+}
+.wclose
+{
+	position:absolute;
+	top:4px;
+	right:6px;
+	font-size:10px;
+}
+
+.wclose:hover
+{
+	cursor:pointer;
+	color:#bf0000;
+}
+
+td.wnotice
+{
+	font-size:12px;
+	color: #EF3138;
+	text-align:left;
+	font-weight: bold;
+}
+
+div.wcongratulations
+{
+	position:relative;
+	top:30px;
+	left:400px;
+	margin-left:-150px;
+	display:none;
+	position:absolute;
+	width:300px;
+	background-color: white;
+	opacity:0.9;
+	-moz-opacity:0.9;
+	filter:alpha(opacity=90);
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+	border:1px solid black;
+	z-index:10001;
+}
+div.wcongratulations > .wcontent
+{
+	margin: 20px 10px;
+}
+div.wcongratulations > .whead,
+div.wcongratulations > .wfoot
+{
+	width:100%;
+	height:20px;
+	background-color: #ddd;
+}
+
+div.wcongratulations > .whead,
+{
+	border-bottom:1px solid #999;
+}
+div.wcongratulations > .wfoot,
+{
+	border-top:1px solid #999;
+}
+
+div.wcongratulations > .wcontent > form
+{
+	margin-top:10px;
+}
+
+input.wcon-button
+{
+	outline:none;
+	border:1px solid #666;
+	background-color:#F0F0F0;
+	float:right;
+	color:#333;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+}
+input.wcon-button:hover
+{
+	cursor:pointer;
+	background-color:white;
+	color:#000;
+}
+input.wcon-button:active
+{
+	background-color:#e0e0e0;
+	box-shadow:inset 0px 1px 2px #999;
+	-moz-box-shadow:inset 0px 1px 2px #999;
+	-webkit-box-shadow:inset 0px 1px 2px #999;
+}
+
+#wcongratulations-2
+{
+	z-index:10001;
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-left:-210px;
+	margin-top:-50px;
+	width:350px;
+	background-color: #D3D3FF;
+	border:1px solid black;
+	padding:30px;
+	font-size:20px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	text-align:center;
+	color:#27395F;
+	text-shadow:1px 1px 1px black;
+	-moz-box-shadow:1px 1px 5px black;
+	-webkit-box-shadow:1px 1px 5px black;
+	box-shadow:1px 1px 5px black;
+}
+
+div.wnewusers
+{
+	margin-left:15px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	width:250px;
+	height:417px;
+	overflow:hidden;
+	background-color:#628fbc;
+	box-shadow:inset 1px 1px 1px #1F2D49;
+	-moz-box-shadow:inset 1px 1px 1px #1F2D49;
+	-webkit-box-shadow:inset 1px 1px 1px #1F2D49;
+	font-size:12px;
+	color:white;
+	text-shadow:0 1px 1px black;
+	border:1px solid #999;
+}
+div.wnicknameli
+{
+	font-family:tahoma, arial, helvetica sans-serif;
+	line-height:35px;
+	font-size:14px;
+}
+div.wnewusers ol
+{
+	padding:0;
+	margin:0;
+}
+div.wnewusers li
+{
+	margin:5px 10px 0;
+	list-style-type:none;
+	border-bottom:1px dotted #333;
+}
+div.wnewusers .box
+{
+	max-height:35px;
+}
+
+div.wnewusers .winfo
+{
+	float:left;
+	height:40px;
+	width:90px;
+}
+.wnewusers .wfrom
+{
+	margin-top:4px;
+	font-size:10px;
+	color:white;
+	text-shadow: 0 0 0 black;
+}
+div.wnewusers-head
+{
+	color:#373D51;
+	font-size:14px;
+	margin-left:15px;
+	margin-top:25px;
+	font-weight:bold;
+	font-family:"Arial black",Arial,sans-serif;
+	text-shadow:0 1px 1px white;
+	text-align:left;
+}
+.welcome-wrap .wleft
+{
+}
+.welcome-wrap .wright
+{
+	width:500px;
+}
+.wsignin-sec
+{
+	text-align:left;
+	margin-top:30px;
+}
+
+.wstay-signedin,
+.wforgot
+{
+	font-size:10px;
+	display:inline-block;
+	width:130px;
+}
+.wforgot
+{
+	margin-left:13px;
+}
